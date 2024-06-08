@@ -1,0 +1,25 @@
+{
+  "name": "blog_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "blogWebsite": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  },
+  "dependencies": {
+    "dompurify": "^3.1.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "jsdom": "^24.1.0",
+    "marked": "^12.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.4.1",
+    "slugify": "^1.6.6"
+  }
+}
